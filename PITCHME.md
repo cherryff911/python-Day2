@@ -18,6 +18,7 @@ Python interprets non-zero values as True. None and 0 are interpreted as False.
 ---
 
 #### Example if statement
+
 ```python
 # If the number is positive, we print an appropriate message
 
@@ -45,8 +46,8 @@ The print() statement falls outside of the if block (unindented). Hence, it is e
 
 ---
 
-###Python if...else Statement
-####Syntax of if...else
+### Python if...else Statement
+#### Syntax of if...else
 
 ```python
 if test expression:
@@ -227,7 +228,7 @@ The sum is 48
 ```
 ---
 
-####The range() function
+#### The range() function
 We can generate a sequence of numbers using range() function. range(10) will generate numbers from 0 to 9 (10 numbers).
 We can also define the start, stop and step size as range(start,stop,step size). step size defaults to 1 if not provided.
 
@@ -388,7 +389,7 @@ while counter < 3:
 else:
     print("Inside else")
 ```
-####Output
+#### Output
 ```python
 Inside loop
 Inside loop
