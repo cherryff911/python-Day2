@@ -1,3 +1,5 @@
+# DAY 02
+
 ### Python if...else Statement
 Decision making is required when we want to execute a code only if a certain condition is satisfied.
 
