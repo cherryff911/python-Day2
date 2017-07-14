@@ -34,15 +34,15 @@ print("This is also always printed.")
 ```
 ---
 
-In the above example, num > 0 is the test expression.
+In the above example, <i>num > 0</i> is the test expression.
 
 The body of if is executed only if this evaluates to True.
 
-When variable num is equal to 3, test expression is true and body inside body of if is executed.
+When variable <i>num is equal to 3</i>, test expression is true and body inside body of if is executed.
 
 If variable num is equal to -1, test expression is false and body inside body of if is skipped.
 
-The print() statement falls outside of the if block (unindented). Hence, it is executed regardless of the test expression.
+The <i>print()</i> statement falls outside of the if block (unindented). Hence, it is executed regardless of the test expression.
 
 ---
 
@@ -143,7 +143,7 @@ If num is negative, Negative number is printed
 ---
 
 #### Python Nested if statements
-We can have a if...elif...else statement inside another if...elif...else statement. This is called nesting in computer programming.
+We can have a <i>if...elif...else</i> statement inside another <i>if...elif...else</i> statement. This is called nesting in computer programming.
 
 Any number of these statements can be nested inside one another. Indentation is the only way to figure out the level of nesting. This can get confusing, so must be avoided if we can.
 
@@ -234,8 +234,8 @@ We can also define the start, stop and step size as range(start,stop,step size).
 
 This function does not store all the values in memory, it would be inefficient. So it remembers the start, stop, step size and generates the next number on the go.
 
-To force this function to output all the items, we can use the function list().
-*The following example will clarify this.
+To force this function to output all the items, we can use the <i>function list().</i>
+<i>The following example will clarify this.</i>
 
 ---
 ```python
@@ -254,7 +254,7 @@ print(list(range(2, 20, 3)))
 
 ---
 <br>
-We can use the range() function in for loops to iterate through a sequence of numbers. It can be combined with the len() function to iterate though a sequence using indexing. Here is an example.
+We can use the range() function in for loops to iterate through a sequence of numbers. It can be combined with the <i>len()</i> function to iterate though a sequence using indexing. Here is an example.
 ```python
 # Program to iterate through a list using indexing
 
@@ -318,13 +318,13 @@ while test_expression:
 
 ---
 <br>
-In while loop, test expression is checked first. The body of the loop is entered only if the test_expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to False.
+In while loop, test expression is checked first. The body of the loop is entered only if the test_expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to <i>False.</i>
 
 In Python, the body of the while loop is determined through indentation.
 
 Body starts with indentation and the first unindented line marks the end.
 
-Python interprets any non-zero value as True. None and 0 are interpreted as False.
+Python interprets any non-zero value as True. None and 0 are interpreted as <i>False.</i>
 
 ---
 
@@ -359,7 +359,7 @@ Enter n: 10
 The sum is 55
 ```
 <br>
-In the above program, the test expression will be True as long as our counter variable i is less than or equal to n (10 in our program).
+In the above program, the test expression will be True as long as our counter <i>variable i is less than or equal to n (10 in our program).</i>
 
 We need to increase the value of counter variable in the body of the loop. This is very important (and mostly forgotten). Failing to do so will result in an infinite loop (never ending loop).
 
@@ -536,4 +536,4 @@ class example:
 
 ---
 
-
+# THE END OF DAY 2
